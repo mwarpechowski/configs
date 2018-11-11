@@ -1,0 +1,29 @@
+[user]
+	name = <set me>
+	email = <set me>
+[alias]
+	logg = log --abbrev-commit --graph --pretty --oneline --decorate
+        diff-word = diff --word-diff=plain
+
+[color]
+	diff = auto
+	branch = auto
+	interactive = auto
+	status = auto
+	ui = true
+	pager = true
+
+[color "diff"]
+	frag = yellow
+	commit = blue
+
+[color "branch"]
+	local = green
+	current = green bold
+
+[color "status"]
+	branch = blue
+	untracked = yellow bold
+
+[diff]
+	colorMoved = plain
